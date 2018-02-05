@@ -1,0 +1,16 @@
+---
+title: "Simulation"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Simulation for comparing Double Wavelet Transform and Mean Voxel Approach for Task Induced fMRI data
+
+```{r single1, echo=FALSE}
+resulttable()
+```
